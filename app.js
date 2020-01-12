@@ -11,7 +11,7 @@ var ioSession = require('express-socket.io-session');
 
 server.listen(8080);//On lance le serveur
 
-app.use(express.static('public'))//On indique a express où se trouveront nos fichier static (css, js, etc..)
+app.use(express.static('public'))//On indique a express où se trouveront nos fichiers statics (css, js, etc..)
     .use(session)// active les session dans l'application
     .get('/', function (req, res) {
         //Va chercher le fichier 'index.ejs' dans un dossier views par defaut
