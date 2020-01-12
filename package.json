@@ -1,0 +1,16 @@
+{
+    "name": "chat-node-js",
+    "version": "0.1.0",
+    "dependencies": {
+        "bufferutil": "^4.0.1",
+        "csv-express": "^1.2.2",
+        "ejs": "~2.1.4",
+        "express": "^4.17.1",
+        "express-session": "^1.17.0",
+        "express-socket.io-session": "^1.3.5",
+        "socket.io": "^2.3.0",
+        "utf-8-validate": "^5.0.2"
+    },
+    "author": "Le Bob <leBob@email.com>",
+    "description": "Un chat de base en node js"
+}
